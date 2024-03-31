@@ -13,7 +13,7 @@ on:
 jobs:
   docker:
     name: Ubuntu
-    runs-on: ubuntu-latest
+    runs-on: self-hosted
 
     env:
       IMAGE_TAG: ghcr.io/${{ github.repository }}/centos_env:latest
